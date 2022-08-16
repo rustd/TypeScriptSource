@@ -12,8 +12,9 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-
+    #runs-on: ubuntu-latest
+    runs-on: buildjet-2vcpu-ubuntu-2004
+    
     strategy:
       matrix:
         # Test the latest version of Node.js plus the last two LTS versions.
